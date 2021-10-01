@@ -1,0 +1,107 @@
+/*-- Body Reset --*/
+body {
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: #616971;
+}
+
+.navbar{
+  /* font-size:  1.15rem; */
+  font-weight: 600;
+  letter-spacing: .1rem;
+  box-shadow: 0 .5rem .5rem rgba(0,0,0,.2);
+  
+}
+.nav-item{
+  padding: .5rem;
+}
+
+#carouselExampleFade{
+  box-shadow: 0 1rem 1rem rgba(0,0,0,.1);
+}
+.carousel-inner{
+  max-height: 48rem!important;
+}
+.border-primary{
+  border-top: .2rem solid!important;
+}
+
+.fixed{
+  background-image: url('travel.jpg');
+  position: fixed;
+}
+.fixed-background {
+  padding: 10rem 0;
+  overflow: hidden; 
+}
+
+footer{
+  background-color: #383838;
+  padding: 1rem 2rem 3rem;
+}
+footer h1{
+  height: 3.5rem;
+  margin: 1.5rem auto;
+}
+footer p,footer a,
+.socket p {
+color:white;
+text-decoration: none;
+}
+
+.social li{
+  margin: 0 auto;
+  display: inline;
+  padding-right: 20px;
+}
+.card{
+  display: inline;
+}
+.socket{
+  background-color: #1b1b1b;
+  border-top: .1rem solid #1582e2;
+}
+.welcome h1{
+  font-weight: 500;
+  letter-spacing: .1rem;
+}
+.welcome p{
+  letter-spacing: .1rem;
+}
+.top h1{
+  font-weight: 500;
+  letter-spacing: .4rem;
+}
+.fixed-background h1{
+  font-weight: 800;
+}
+.fixed-background h3{
+  font-weight: 600;
+}
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1000!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+.fixed {
+  z-index: -999!important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}

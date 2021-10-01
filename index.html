@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Travel.com</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 
+          aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#carouselExampleFade">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#toppicks">Top Picks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">About Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- carousel -->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- welcome text       -->
+      <div class="welcome container-fluid padding">
+        <div class="row welcome text-center mt-5">
+            <div class="col-12">
+                <h1 class="text-dark pt-4">TRAVEL WITH US :)</h1>
+            </div>
+            <div class="border-top border-primary w-25 mx-auto my-3"></div>
+            <div class="col-12">
+                <p class="lead">Want a break, just travel.com!</p>
+            </div>
+        </div>
+    </div>
+    <div class="fixed-background mt-5">
+        <div class="row text-light py-5">
+            <div class="col-12 text-center text-dark font-weight-bold">
+                <h1>Welcome Aboard</h1>
+                <h3 class="py-4">..see whats on the other side</h3>
+            </div>
+        </div>
+        <div  class="fixed-wrap">
+          <div class="fixed">
+  
+          </div>
+        </div>
+    </div>
+    <div id="toppicks"></div>
+    <div  class="top container-fluid padding">
+        <div class="row welcome text-center mt-5">
+            <div class="col-12">
+                <h1 class="text-dark pt-4">TOP PICKS</h1>
+            </div>
+        </div>
+    </div>      
+    <!-- cards -->
+    <div class="container-fluid padding mt-5">
+    <div class="row my-5">
+        <div class="col-md-3 my-3 ">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img src="spian.jfif" class="card-img-top" alt="...">
+                 <div class="card-body">
+                    <h5 class="card-title text-center text-dark">SPAIN</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 my-3">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img src="usa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center text-dark">UNITES STATES</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 my-3">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img src="india.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center text-dark">INDIA</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 my-3">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img src="france.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center text-dark">FRANCE</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    <!-- working -->
+    <div class="container my-5">
+        <div class="row py-5">
+            <div class="col-lg-4 mb-4 my-lg-auto">
+                <h1 class="text-dark font-weight-bold mb-3">We have been expecting you</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro ad quae veritatis iusto accusamus 
+                    repudiandae minima est, vero iure maiores quas voluptas saepe, nihil ducimus, deserunt cupiditate ea omnis!</p>
+            </div>
+            <div class="col-lg-8">
+                <img src="work.jpg" class="w-100">
+            </div>
+        </div>
+    </div>
+    
+    <footer id="footer">
+       <div class="container">
+            <div class="row text-light text-center py-4 justify-content-center">
+                <div class="col-sm-10 col-md-8 col-lg-6">
+                    <h1>travel.com</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, expedita voluptate veniam quo non libero 
+                        id modi quaerat maxime aliquid numquam, accusantium fugit obcaecati impedit. Alias similique saepe 
+                        quidem numquam?</p>
+                </div>
+                <ul class="social">
+                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></i></a></li>
+                    
+                </ul>
+           </div>
+       </div>
+   </footer>
+   <div class="socket text-light text-center py-3 ">
+        <p id="hello">&copy; keshavchuriwal</p>
+   </div>
+   <script src="https://kit.fontawesome.com/9d80564b77.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
